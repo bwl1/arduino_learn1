@@ -72,9 +72,9 @@ void loop()
             {
                 switch(morse_code[t+i*4+i-1])
                 {
-                    case '-': blinkDash(LED, dotTime);
-                    case '.': blinkDot(LED, dotTime);
-                    case ' ': blink_W_Space(LED, dotTime);
+                    case '-': blinkDash(LED, dotTime);	break;
+                    case '.': blinkDot(LED, dotTime);	break;
+                    case ' ': blink_W_Space(LED, dotTime);	break;
                 }
                 blink_C_Space(LED, dotTime); //字符结束
             }
