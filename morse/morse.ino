@@ -28,7 +28,7 @@ char Morse[][4] = {
     
 }; //摩尔斯码表
 
-int LED = 1; //led端口12
+int LED = 1;
 int dotTime = 250; //单位时间0.25s
 
 void setup()
